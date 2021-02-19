@@ -21,11 +21,11 @@ function draw() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
   drawBall();
 
-  if(y + dy > canvas.height　| y + dy < 0) {
+  if(y + dy > canvas.height - ballRadius | y + dy < ballRadius) {
     dy = -dy;
   }
 
-  if(x + dy > canvas.width　| y + dy < 0) {
+  if(x + dy > canvas.width - ballRadius | y + dy < ballRadius) {
     dx = -dx;
   }
 
