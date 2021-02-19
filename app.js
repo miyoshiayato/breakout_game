@@ -25,6 +25,10 @@ function draw() {
     dy = -dy;
   }
 
+  if(y + dy > canvas.height) {
+    dy = -dy;
+  }
+
   x += dx;
   y +~ dy;
 }
