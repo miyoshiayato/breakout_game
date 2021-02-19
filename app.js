@@ -21,6 +21,10 @@ function draw() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
   drawBall();
 
+  if(y + dy < 0) {
+    dy = -dy;
+  }
+
   x += dx;
   y +~ dy;
 }
