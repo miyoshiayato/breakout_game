@@ -25,6 +25,10 @@ function draw() {
     dy = -dy;
   }
 
+  if(x + dy > canvas.width　| y + dy < 0) {
+    dx = -dx;
+  }
+
   
 
   x += dx;
