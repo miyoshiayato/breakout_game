@@ -22,7 +22,10 @@ function drawBall() {
 }
 
 function drawPaddle() {
-
+  ctx.beginPath();
+  ctx.fillStyle = "#0095DD";
+  ctx.fill();
+  ctx.closePath();
 }
 
 function draw() {
