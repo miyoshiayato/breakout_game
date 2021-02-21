@@ -23,6 +23,7 @@ function drawBall() {
 
 function drawPaddle() {
   ctx.beginPath();
+  ctx.rect(paddleX, canvas.height - paddleHeight, paddleWidth, paddleHeight);
   ctx.fillStyle = "#0095DD";
   ctx.fill();
   ctx.closePath();
@@ -31,6 +32,7 @@ function drawPaddle() {
 function draw() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
   drawBall();
+  drawPaddle();
 
   if(y + dy > canvas.height - ballRadius | y + dy < ballRadius) {
     dy = -dy;
