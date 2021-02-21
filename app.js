@@ -10,6 +10,7 @@ var dy = -2;
 var ballRadius = 10;
 
 var paddleHeight = 10;
+var paddleWidth = 75;
 
 function drawBall() {
   ctx.beginPath();
