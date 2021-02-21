@@ -9,6 +9,8 @@ var dy = -2;
 
 var ballRadius = 10;
 
+var paddleHeight = 10;
+
 function drawBall() {
   ctx.beginPath();
   ctx.arc(x, y, ballRadius, 0, Math.PI * 2);
