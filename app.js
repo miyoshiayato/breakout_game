@@ -51,4 +51,6 @@ function draw() {
   y +~ dy;
 }
 
+document.addEventListener("keydown", keyDownHandler, false);
+
 setInterval(draw, 10);
