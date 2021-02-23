@@ -61,7 +61,7 @@ function draw() {
 document.addEventListener("keydown", keyDownHandler, false);
 document.addEventListener("keyup", keyUpHandler, false);
 
-function keyDownHandler() {
+function keyDownHandler(e) {
   if(e.key == "Right" || e.key == "ArrowRight") {
     rightPressed = true;
   }
@@ -70,7 +70,7 @@ function keyDownHandler() {
   }
 }
 
-function keyUpHandler() {
+function keyUpHandler(e) {
   if(e.key == "Right" || e.key == "ArrowRight") {
     rightPressed = false;
   }
