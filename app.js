@@ -63,4 +63,8 @@ function keyDownHandler() {
   }
 }
 
+function keyUpHandler() {
+
+}
+
 setInterval(draw, 10);
