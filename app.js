@@ -45,6 +45,11 @@ function draw() {
     dx = -dx;
   }
 
+  if(rightPressed) {
+    paddleX += 7;
+  }
+  
+
   
 
   x += dx;
