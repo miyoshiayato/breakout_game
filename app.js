@@ -48,7 +48,9 @@ function draw() {
   if(rightPressed) {
     paddleX += 7;
   }
-  
+  else if(leftPressed) {
+    paddleX -= 7;
+  }
 
   
 
