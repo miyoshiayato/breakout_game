@@ -14,6 +14,7 @@ var paddleWidth = 75;
 var paddleX = (canvas.width - paddleWidth) / 2;
 
 var rightPressed = false;
+var leftPressed = false;
 
 function drawBall() {
   ctx.beginPath();
