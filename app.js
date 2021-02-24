@@ -39,6 +39,10 @@ function draw() {
 
   if(y + dy > canvas.height - ballRadius | y + dy < ballRadius) {
     dy = -dy;
+  } else if(y + dy > canvas.height - ballRadius) {
+    alert("GAME OVER");
+    document.location.reload();
+    clearInterval(interval);
   }
 
   if(x + dy > canvas.width - ballRadius | y + dy < ballRadius) {
@@ -79,4 +83,4 @@ function keyUpHandler(e) {
   }
 }
 
-setInterval(draw, 10);
+var interval = setInterval(draw, 10);
