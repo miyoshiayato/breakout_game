@@ -39,7 +39,7 @@ function draw() {
 
   if(y + dy > canvas.height - ballRadius | y + dy < ballRadius) {
     dy = -dy;
-  }
+  } else if(y + dy > canvas.height - ballRadius) 
 
   if(x + dy > canvas.width - ballRadius | y + dy < ballRadius) {
     dx = -dx;
