@@ -39,7 +39,9 @@ function draw() {
 
   if(y + dy > canvas.height - ballRadius | y + dy < ballRadius) {
     dy = -dy;
-  } else if(y + dy > canvas.height - ballRadius) 
+  } else if(y + dy > canvas.height - ballRadius) {
+    alert("GAME OVER");
+  }
 
   if(x + dy > canvas.width - ballRadius | y + dy < ballRadius) {
     dx = -dx;
