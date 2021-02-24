@@ -41,6 +41,8 @@ function draw() {
     dy = -dy;
   } else if(y + dy > canvas.height - ballRadius) {
     alert("GAME OVER");
+    document.location.reload();
+    clearInterval(interval);
   }
 
   if(x + dy > canvas.width - ballRadius | y + dy < ballRadius) {
