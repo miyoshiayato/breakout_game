@@ -79,4 +79,4 @@ function keyUpHandler(e) {
   }
 }
 
-setInterval(draw, 10);
+var interval = setInterval(draw, 10);
