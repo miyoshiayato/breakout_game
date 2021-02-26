@@ -47,6 +47,11 @@ function drawBricks() {
     for(var r = 0; r < brickRowCount; r++) {
       bricks[c][r].x = 0;
       bricks[c][r].y = 0;
+
+      ctx.beginPath();
+      ctx.fillStyle = "#0095DD";
+      ctx.fill();
+      ctx.closePath();
     }
   }
 }
