@@ -18,6 +18,8 @@ var leftPressed = false;
 
 var brickRowCount = 3;
 var brickColumnCount = 5;
+var brickWidth = 75;
+var brickHeight = 20;
 
 function drawBall() {
   ctx.beginPath();
