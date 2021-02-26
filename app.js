@@ -40,6 +40,10 @@ function drawPaddle() {
   ctx.closePath();
 }
 
+function drawBricks() {
+  
+}
+
 function draw() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
   drawBall();
