@@ -41,7 +41,9 @@ function drawPaddle() {
 }
 
 function drawBricks() {
-  
+  for(var c = 0; c < brickColumnCount; c++) {
+    
+  }
 }
 
 function draw() {
