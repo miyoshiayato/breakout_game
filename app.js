@@ -87,7 +87,9 @@ function drawBricks() {
 function draw() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
   drawBall();
+  drawBricks();
   drawPaddle();
+  collisionDetection();
 
   if(y + dy > canvas.height - ballRadius | y + dy < ballRadius) {
     dy = -dy;
