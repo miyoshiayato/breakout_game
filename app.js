@@ -52,7 +52,7 @@ function collisionDetection() {
 
 function drawScore() {
   ctx.font = "16px Arial";
-  
+  ctx.fillStyle = "#0095DD";
 }
 
 function drawBall() {
