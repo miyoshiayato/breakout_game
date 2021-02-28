@@ -51,6 +51,7 @@ function collisionDetection() {
 }
 
 function drawScore() {
+  ctx.font = "16px Arial";
   
 }
 
