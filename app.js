@@ -47,6 +47,7 @@ function collisionDetection() {
           score++;
 
           if(score == brickRowCount * brickColumnCount) {
+            alert("CONGRATULATIONS!");
           }
         }
       }
