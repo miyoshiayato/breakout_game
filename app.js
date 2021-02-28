@@ -98,6 +98,7 @@ function draw() {
   drawBall();
   drawBricks();
   drawPaddle();
+  drawScore();
   collisionDetection();
 
   if(y + dy > canvas.height - ballRadius | y + dy < ballRadius) {
