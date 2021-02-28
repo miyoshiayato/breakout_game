@@ -48,6 +48,7 @@ function collisionDetection() {
 
           if(score == brickRowCount * brickColumnCount) {
             alert("CONGRATULATIONS!");
+            document.location.reload();
           }
         }
       }
