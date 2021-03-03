@@ -133,6 +133,7 @@ function draw() {
 
 document.addEventListener("keydown", keyDownHandler, false);
 document.addEventListener("keyup", keyUpHandler, false);
+document.addEventListener("mousemove", mouseMoveHandler, false);
 
 function keyDownHandler(e) {
   if(e.key == "Right" || e.key == "ArrowRight") {
