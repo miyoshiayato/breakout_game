@@ -153,4 +153,9 @@ function keyUpHandler(e) {
   }
 }
 
+function mouseMoveHandler(e) {
+
+
+}
+
 var interval = setInterval(draw, 10);
